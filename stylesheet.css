@@ -1,0 +1,103 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	margin-top: -10px;
+	height: 120px;
+	background-color: #000000;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+}
+
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 22;
+	font-family: Impact;
+	color: #ffffff;
+}
+
+#email{
+	float:right;
+	margin-right: 50px;
+	padding-top: 5px;
+    padding-right: 50;
+	font-size: 22;
+	font-family: Impact;
+	color: #ffffff;
+}
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Impact;
+	font-size: 20;
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: Verdana;
+	color: #ffffff;
+	text-align: justify;
+}
+
+li {
+	list-style-type: square;
+}
+
+a:hover {
+	color:#999999;
+}
+a:link {
+    color:#ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color:#ffffff;
+}
+.left {
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	width: 10%;
+	background-color: #666666;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	width: 90%;
+	background-color: #000000;
+	margin-bottom: 10px;
+	color: #ffffff;
+	font-family: Verdana;
+    padding: 5;
+
+
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #000000;
+	clear: both;
+	font-family: Impact;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
